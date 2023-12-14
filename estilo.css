@@ -102,7 +102,7 @@ main section {
     margin-top: 20px;
     border-radius: 20px;
     font-size: 40px;
-    background-image: url("img/terminal_background.png");
+    background-image: url("./img/terminal_background.png");
     background-repeat: no-repeat;
     background-size: 110%;
     background-position: top;
@@ -251,7 +251,7 @@ img#tag {
 
 .parallax {
     /* The image used */
-    background-image: url("img/background.jpg");
+    background-image: url("./img/background.jpg");
   
     /* Set a specific height */
     min-height: 600px;
@@ -312,7 +312,7 @@ div.list div {
 
 section#projetos div.list div {
     background-color: white;
-    background-image: url("img/em_breve.png");
+    background-image: url("./img/em_breve.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: 10px;
@@ -349,67 +349,67 @@ div.list div:not(:hover) {
 
 
 #java {
-    background-image: url("img/logos/java.webp");
+    background-image: url("./img/logos/java.webp");
 }
 
 #js {
-    background-image: url("img/logos/js.webp");
+    background-image: url("./img/logos/js.webp");
 }
 
 #html5 {
-    background-image: url("img/logos/html5.webp");
+    background-image: url("./img/logos/html5.webp");
 }
 
 #css3 {
-    background-image: url("img/logos/css3.webp");
+    background-image: url("./img/logos/css3.webp");
 }
 
 #python {
-    background-image: url("img/logos/python.webp");
+    background-image: url("./img/logos/python.webp");
 }
 
 #nodejs {
-    background-image: url("img/logos/nodejs.webp");
+    background-image: url("./img/logos/nodejs.webp");
 }
 
 #mysql {
-    background-image: url("img/logos/mysql.webp");
+    background-image: url("./img/logos/mysql.webp");
 }
 
 #postgresql {
-    background-image: url("img/logos/postgresql.webp");
+    background-image: url("./img/logos/postgresql.webp");
 }
 
 #linux {
-    background-image: url("img/logos/linux.webp");
+    background-image: url("./img/logos/linux.webp");
 }
 
 #mongodb {
-    background-image: url("img/logos/mongodb.webp");
+    background-image: url("./img/logos/mongodb.webp");
 }
 
 #php {
-    background-image: url("img/logos/php.webp");
+    background-image: url("./img/logos/php.webp");
 }
 
 #github {
-    background-image: url("img/logos/github.png");
+    background-image: url("./img/logos/github.png");
 }
 
 #git {
-    background-image: url("img/logos/git.webp");
+    background-image: url("./img/logos/git.webp");
 }
 
 #redes_de_computadores {
-    background-image: url("img/logos/redes_de_computadores.webp");
+    background-image: url("./img/logos/redes_de_computadores.webp");
 }
 
 #manutencao_de_computadores {
-    background-image: url("img/logos/manutencao_de_computadores.png");
+    background-image: url("./img/logos/manutencao_de_computadores.png");
 }
 
 #cybersecurity {
-    background-image: url("img/logos/cybersecurity.png");
+    background-image: url("./img/logos/cybersecurity.png");
 }
 
 
