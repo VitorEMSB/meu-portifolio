@@ -102,7 +102,7 @@ main section {
     margin-top: 20px;
     border-radius: 20px;
     font-size: 40px;
-    background-image: url("/img/terminal_background.png");
+    background-image: url("img/terminal_background.png");
     background-repeat: no-repeat;
     background-size: 110%;
     background-position: top;
@@ -251,7 +251,7 @@ img#tag {
 
 .parallax {
     /* The image used */
-    background-image: url("/img/background.jpg");
+    background-image: url("img/background.jpg");
   
     /* Set a specific height */
     min-height: 600px;
@@ -353,19 +353,19 @@ div.list div:not(:hover) {
 }
 
 #js {
-    background-image: url("/img/logos/js.webp");
+    background-image: url("img/logos/js.webp");
 }
 
 #html5 {
-    background-image: url("/img/logos/html5.webp");
+    background-image: url("img/logos/html5.webp");
 }
 
 #css3 {
-    background-image: url("/img/logos/css3.webp");
+    background-image: url("img/logos/css3.webp");
 }
 
 #python {
-    background-image: url("/img/logos/python.webp");
+    background-image: url("img/logos/python.webp");
 }
 
 #nodejs {
