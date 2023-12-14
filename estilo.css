@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    padding-right: 40px;
+    background-color: black;
+    color: white;
+}
+
+nav img {
+    width: 80px;
+    height: 80px;
+    margin-right: 690px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none;
+}
+
+#menu li {
+    margin-left: 60px;
+    height: 25px;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: 1px solid #5E17EB;
+    width: 100px;
+    padding: 5px;
+    background-color: #5E17EB;
+    text-align: center;
+}
+
+#menu li:nth-of-type(4) {
+    width: 120px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.menuButton:hover {
+    box-shadow: 1px 10px 10px rgb(104, 255, 139);
+    transition: 1s;
+}
+
+.menuButton:not(:hover) {
+    transition: 1s; 
+}
+
+main {
+    height: 3500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #21224E;
+}
+
+main section {
+    height: 500px;
+    padding: 20px;
+}
+
+#entrada {
+    display: flex;
+    color: white;
+}
+
+#entrada div {
+    flex: 1;
+}
+
+#entrada img {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    margin-left: 480px;
+    margin-top: 20px;
+}
+
+#conteudoEntrada div {
+    text-align: center;
+}
+
+#conteudoEntrada div:nth-of-type(1) {
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    background-image: url("/img/terminal_background.png");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: top;
+}
+
+#conteudoEntrada p {
+    font-family: 'Silkscreen', sans-serif;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+#conteudoEntradaLetreiro {
+    padding-top: 40px;
+}
+
+#conteudoEntradaLetreiro p {
+    display: none;
+}
+
+.letreiro {
+    display: block !important;
+}
+
+#conteudoEntrada div:nth-of-type(1)  p:nth-of-type(1) {
+    color: #6affb7;
+    font-weight: bolder;
+}
+
+#conteudoEntrada div:nth-of-type(1)  p:nth-of-type(2) {
+    color: #6affb7;
+    font-weight: bolder;
+}
+
+#conteudoEntrada div:nth-of-type(1)  p:nth-of-type(3) {
+    color: #6DE1F5;
+    font-weight: bolder;
+}
+
+#conteudoEntrada div:nth-of-type(2) {
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+
+
+#play {
+    background-color: #5E17EB;
+    cursor: pointer;
+    height: 35px; 
+}
+
+#play:not(:hover) {
+    box-shadow: none !important;
+    transition: 1s;
+}
+
+#play p {
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+img#mesa  {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    margin-top: 220px;
+    margin-left: 200px;
+}
+
+img#notebook {
+    position: absolute;
+    width: 180px;
+    height: 130px;
+    margin-top: 130px;
+    margin-left: 240px;
+}
+
+img#xicara {
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    margin-top: 210px;
+    margin-left: 460px;
+}
+
+img#fumaca {
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    margin-top: 155px;
+    margin-left: 476px;
+}
+
+img#tag {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 224px;
+    margin-left: 483px;
+}
+
+
+#sobre {
+    display: flex;
+    padding: 30px;
+}
+
+#sobre img {
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+#sobre img:hover {
+    box-shadow: 15px 15px 15px black;
+    transition: 1s;
+}
+
+#sobre img:not(:hover) {
+    transition: 1s;
+}
+ 
+#sobre img, p {
+    flex: 1;
+}
+
+#sobre p {
+    color: white;
+    text-align: center;
+    width: 600px;
+    font-size: 50px;
+    margin: auto;
+    margin-left: 30%;
+    margin-top: 25%;
+}
+
+#sobre2 {
+    padding: 0px;
+    height: 700px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("/img/background.jpg");
+  
+    /* Set a specific height */
+    min-height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+#sobre2 p {
+    position: absolute;
+    color: white;
+    width: 700px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 150px;
+    margin-left: 30%;
+}
+
+#projetos {
+    text-align: center;
+    height: 900px;
+}
+
+#projetos > p {
+    color: #43aae2;;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 7px;
+}
+
+div.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 1400px;
+    margin: auto;
+    justify-content: center;
+    
+}
+
+section#habilidades div.list {
+    width: 1000px;
+}
+
+div.list div {
+    border-radius: 15px;
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+section#projetos div.list div {
+    background-color: white;
+    background-image: url("img/em_breve.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 10px;
+}
+
+#habilidades {
+    text-align: center;
+    height: 1000px;
+}
+
+#habilidades > p {
+    color: #00e074;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 7px;
+}
+
+section#habilidades div.list div {
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+div.list div:hover {
+    box-shadow: 15px 15px 15px black;
+    transition: 1s;
+}
+
+div.list div:not(:hover) {
+    transition: 1s;
+}
+
+
+#java {
+    background-image: url("img/logos/java.webp");
+}
+
+#js {
+    background-image: url("/img/logos/js.webp");
+}
+
+#html5 {
+    background-image: url("/img/logos/html5.webp");
+}
+
+#css3 {
+    background-image: url("/img/logos/css3.webp");
+}
+
+#python {
+    background-image: url("/img/logos/python.webp");
+}
+
+#nodejs {
+    background-image: url("img/logos/nodejs.webp");
+}
+
+#mysql {
+    background-image: url("img/logos/mysql.webp");
+}
+
+#postgresql {
+    background-image: url("img/logos/postgresql.webp");
+}
+
+#linux {
+    background-image: url("img/logos/linux.webp");
+}
+
+#mongodb {
+    background-image: url("img/logos/mongodb.webp");
+}
+
+#php {
+    background-image: url("img/logos/php.webp");
+}
+
+#github {
+    background-image: url("img/logos/github.png");
+}
+
+#git {
+    background-image: url("img/logos/git.webp");
+}
+
+#redes_de_computadores {
+    background-image: url("img/logos/redes_de_computadores.webp");
+}
+
+#manutencao_de_computadores {
+    background-image: url("img/logos/manutencao_de_computadores.png");
+}
+
+#cybersecurity {
+    background-image: url("img/logos/cybersecurity.png");
+}
+
+
+div.verTudo {
+   margin-top: 50px !important;
+   cursor: pointer !important;
+   background-color: #5E17EB;
+   width: 150px;
+   height: 60px;
+   color: white;
+   font-weight: bolder;
+   margin: auto;
+   border-radius: 20px;
+   text-align: center;
+}
+
+div.verTudo:hover {
+    box-shadow: 5px 5px 5px black;
+    transition: 0.5s;
+}
+
+
+div.verTudo:not(:hover) {
+    transition: 0.5s;
+}
+
+div.verTudo p {
+    padding: 20px;
+}
+
+
+footer {
+    display: flex;
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+
+footer div {
+    flex: 1;
+}
+
+#logoFooter {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoFooter img {
+    width:240px;
+    height: 240px;
+}
+
+#social {
+    text-align: center;
+}
+
+#social > p {
+    height: 20px;
+    width: 400px;
+    margin-left: 35%;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #5E17EB;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+#socialIcons img {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+#socialIcons {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin: auto;
+    justify-content: center;
+    margin-left: 310px;
+}
+
+#socialIcons p {
+    height: 50px;
+    flex-basis: 100%;
+    margin-top: 20%;
+}
+
+
+
+
+
