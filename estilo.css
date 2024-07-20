@@ -292,7 +292,7 @@ div.list {
     flex-direction: row;
     flex-wrap: wrap;
     height: 500px;
-    width: 1400px;
+    width: 1000px;
     margin: auto;
     justify-content: center;
     
@@ -310,13 +310,23 @@ div.list div {
     margin-top: 50px;
 }
 
-section#projetos div.list div {
+section#projetos div.list a div {
     background-color: white;
     background-image: url("./img/em_breve.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-x: 10px;
-    background-position-y: 10px;
+    background-position: center;
+    background-position-x: -19px;
+    background-position-y: 30px;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+}
+
+section#projetos div.list a:nth-of-type(1) div{
+    background-image: url("./img/thumbnail.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #habilidades {
